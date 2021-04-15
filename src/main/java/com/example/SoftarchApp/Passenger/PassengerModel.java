@@ -11,4 +11,12 @@ public class PassengerModel {
         this.passengerid = passengerid;
         this.name = name;
     }
+
+    public UUID getPassengerid(){
+        return passengerid;
+    }
+
+    public String getName(){
+        return name;
+    }
 }
